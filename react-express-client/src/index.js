@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from '../src/components/App/App';
 import reportWebVitals from './reportWebVitals';
 
 // This example uses React Query. Follow these steps

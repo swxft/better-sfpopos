@@ -1,6 +1,6 @@
 import './App.css';
-import SimpleFetch from './SimpleFetch';
-import PublicSpaces from './PublicSpaces';
+import SimpleFetch from '../../SimpleFetch';
+import PublicSpaces from '../../PublicSpaces';
 
 function App() {
 
