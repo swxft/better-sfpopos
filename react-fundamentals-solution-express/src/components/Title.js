@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import RandomSpace from './POPOSRandomSpace/POPOSRandomSpace'
 
 import './Title.css';
@@ -7,7 +7,7 @@ function Title() {
   return (
     <div className="Title">
 			<div>
-				<h1>SFPOPOS</h1>
+				<h1 className='Home-Button'><Link to={`/`}>SFPOPOS</Link></h1>
 				<small className="Title-Subtitle">San Francisco Privately Owned Public Open Spaces</small>
 			</div>
 			<div>

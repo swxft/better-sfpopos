@@ -1,3 +1,4 @@
+
 .Title {
   box-sizing: border-box;
   width: 100%;
@@ -6,12 +7,13 @@
   align-items: baseline;
   padding: 1rem 2em;
   margin-bottom: 2em;
-  background-color: rgb(192, 45, 26);
+  background-color: rgb(122, 160, 121);
   color: #fff;
 }
 
 .Title h1 {
   margin: 0;
+  font-family: 'Figtree', sans-serif;
 }
 
 .Title-Subtitle {
@@ -25,6 +27,9 @@
   color: rgba(255, 255, 255, 0.835);
   font-weight: bold;
   text-decoration: none;
+}
+.Home-Button a{
+  padding: 0;
 }
 
 .Title .nav-link-active {
