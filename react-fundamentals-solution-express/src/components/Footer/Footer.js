@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
 	const year = new Date().getFullYear()
 	return (
-		<div className="Footer">
+		<div className="Footer" aria-label={'Footer'}>
 			© {year}
 			<POPOSCount />
 		</div>

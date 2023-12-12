@@ -1,18 +1,12 @@
 .POPOSList-grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	/* grid-template-columns: 1fr 1fr 1fr; */
 	grid-gap: 2em;
 	/* max-width: 1200px;
 	margin: auto; */
 	padding: 2em;
-}
-
-.POPOSSpace {
-	/* Styles for the root element */
-}
-
-.POPOSSpace img {
-	/* Styles for img inside this component */
+	/* grid-template-columns: repeat((1, minmax((0, 1fr)))); */
+	grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 
@@ -23,7 +17,8 @@
 	align-items: flex-start;
 }
 
-.POPOSList form input, .POPOSList form button {
+.POPOSList form input,
+.POPOSList form button {
 	padding: 1em;
 	margin: 0;
 	border: 1px solid;
@@ -44,17 +39,23 @@
 	border: 1px solid #000;
 }
 
-/* Smaller screens and tablets */
-@media only screen and (max-width: 960px) {
-	.POPOSList {
-		grid-template-columns: 1fr 1fr;
+@media screen and (min-width:900px) {
+	.POPOSList-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+
+	}
+}
+@media screen and (min-width:1100px) {
+	.POPOSList-grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+
 	}
 }
 
-/* Small screens mobile */
+@media only screen and (max-width: 960px) {}
+
 @media only screen and (max-width: 700px) {
 	.POPOSList {
 		grid-template-columns: 1fr;
 	}
 }
-
