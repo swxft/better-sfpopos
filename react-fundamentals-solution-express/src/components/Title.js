@@ -5,10 +5,10 @@ import './Title.css';
 
 function Title() {
   return (
-    <div className="Title">
+    <div className="Title" aria-label={"Title"}>
 			<div>
-				<h1 className='Home-Button'><Link to={`/`}>SFPOPOS</Link></h1>
-				<small className="Title-Subtitle">San Francisco Privately Owned Public Open Spaces</small>
+				<h1 className='Home-Button' aria-label={'Home Button'}><Link to={`/`}>SFPOPOS</Link></h1>
+				<small className="Title-Subtitle" aria-label={'Subtitle'}>San Francisco Privately Owned Public Open Spaces</small>
 			</div>
 			<div>
 				<NavLink 
