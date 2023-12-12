@@ -15,8 +15,3 @@ function App() {
 }
 
 export default App;
-
-const styles = {
-  backgroundColor: 'green', // backgroundColor
-  height: '100%'
-}

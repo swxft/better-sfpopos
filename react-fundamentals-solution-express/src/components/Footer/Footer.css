@@ -3,4 +3,7 @@
 	padding: 2rem;
 	background-color: #111;
 	color: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
 }
