@@ -1,6 +1,6 @@
 # React-Express-Tutorial
  
-![wireframes](react-fundamentals-solution-express/public/images/wireframes.png)
+![wireframes](react-fundamentals-solution-express/public/images/wireframes-final.png)
 
 ## Getting started 
 
